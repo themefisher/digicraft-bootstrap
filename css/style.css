@@ -1,0 +1,395 @@
+/**
+ * ===============================
+ *  Defult CSS 
+ * ===============================
+ */
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: rgba(88, 88, 88, 0.8);
+	font-size: 16px;
+	font-style: none;
+	line-height: 25px;
+	font-weight: 300;
+	overflow-x: hidden !important;
+	text-align: left;
+	position: relative;
+}
+a {
+  text-decoration: none !important;
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a:hover {
+  color: #355dff;
+}
+a:focus {
+  outline: 0 !important;
+}
+.fix {
+  overflow: hidden;
+}
+.section-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+.section-video .bgvid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+.body-video-bg > .section-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+  color: rgba(88, 88, 88, 0.8);
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+p:last-child {
+  margin-bottom: 0px;
+}
+/* Heading Style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Playfair Display', serif;
+	color: #585858;
+}
+h2 {
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: 300;
+}
+h3 {
+  font-size: 25px;
+  line-height: 45px;
+  font-weight: 400;
+}
+h4 {
+  font-size: 22px;
+  line-height: 40px;
+  font-weight: 400;
+}
+h5 {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+}
+h6 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+/**
+ * ====================================
+ *  Every Section Headline Defult Class
+ * ====================================
+ */
+
+.section-title h2{
+  color: rgba(88, 88, 88, 0.95);
+  display: inline-block;
+  padding-bottom: 23px;
+  margin: 0;
+}
+.section-title {
+  margin-bottom: 70px;
+  text-align: center;
+}
+.section-title p {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: rgba(88, 88, 88, 0.65);
+  margin: 0;
+}
+
+/**
+ * ===============================
+ *  Section Top and Bottom padding  
+ * ===============================
+ */
+.section {
+  display: block;
+  padding: 100px 0;
+}
+.section.sp-top {
+  padding-bottom: 0px;
+}
+.section.sp-bottom {
+  padding-top: 0px;
+}
+.section-line {
+  margin: 0;
+  width: 100%;
+  border-top: 1px solid;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+.bg-gray {
+	background:#F5F7FA;
+}
+/**
+ * ====================================
+ * Background Overlay Color
+ * ====================================
+ */
+.overlay-color {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/**
+ * ====================================
+ * Making Same Height Left & Right Part
+ * ====================================
+ */
+.display-full {
+  display: table !important;
+  width: 100%;
+}
+.display-full .left,
+.display-full .right {
+  display: table-cell;
+  float: none !important;
+}
+/**
+ * ===============================
+ *   Defult Button Style
+ * ===============================
+ */
+.btn-main {
+	background:#23a5bd;
+	color: #FFF;
+	font-size: 16px;
+	padding: 12px 36px;
+	font-weight: 600;
+	box-shadow: inset 0px 1px 1px rgba(255,255,255,0.16), 0px 0px 0px 1px rgba(0,0,0,0.12), 0px 2px 5px 0px rgba(0,0,0,0.12);
+	text-shadow: 0px 1px 2px rgba(0,0,0,0.14);
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+	border-radius: 3px;
+}
+.btn-main i {
+	font-size:18px;
+	vertical-align: top;
+	margin-right:4px;
+}
+.btn-main:hover {
+	color:#fff;
+}
+
+
+media (max-width: 767px) {
+  h1,
+  h2 {
+    font-size: 45px;
+    line-height: 65px;
+    font-weight: 300;
+  }
+  /**
+     * ===============================
+     *  Defult CSS 
+     * ===============================
+     */
+  html *,
+  body,
+  p {
+    text-align: center;
+  }
+  /**
+     * ===============================
+     *   Defult Button Style
+     * ===============================
+     */
+  .btn.btn-fill,
+  .btn.btn-border {
+    padding: 3px 15px;
+    min-width: 120px;
+  }
+  /**
+     * ===============================
+     *  Section Top and Bottom padding  
+     * ===============================
+     */
+  .section-separator {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .nav {
+    display: inline-block;
+  }
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  /**
+     * ===============================
+     *   Defult Button Style
+     * ===============================
+     */
+  .btn,
+  .btn:last-child {
+    margin: 10px !important;
+  }
+  /**
+     * ===============================
+     *   Display Vertical
+     * ===============================
+     */
+  .vertical-middle {
+    display: block;
+  }
+}
+
+/**
+ * ===============================
+ * Header Style 1
+ * ===============================
+*/
+.header {
+	background-image: linear-gradient(270deg,#8F559F 0%,#AE68A0 50%,#C27692 100%);
+	background-image: -moz-linear-gradient(270deg,#8F559F 0%,#AE68A0 50%,#C27692 100%);
+	background-image: -o-linear-gradient(270deg,#8F559F 0%,#AE68A0 50%,#C27692 100%);
+	background-image: -webkit-linear-gradient(270deg,#8F559F 0%,#AE68A0 50%,#C27692 100%);
+	box-shadow: inset 0px -3px 20px rgba(0,0,0,0.04);
+	color:#fff;
+	padding:50px 0 0;
+}
+.header .fork-icon {
+	color: #fff;
+	font-size:30px;
+	position:absolute;
+	right:0;
+}
+.header .github-rebon {
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+.header .logo img {
+  max-width: 100px;
+  margin-bottom: 20px;
+	margin-bottom:45px;
+}
+.header h1 {
+    color: #ffffff;
+	font-size: 45px;
+	margin:0;
+	
+	line-height:55px;
+}
+.header p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  line-height: 30px;
+	margin-top:30px;
+}
+.header .btn-form {
+  margin-top: 40px;
+}
+.header .showcase {
+	margin-top:40px;
+	width:700px;
+}
+
+/*Feature*/
+
+.feature-item {
+	text-align: center;
+	margin-bottom: 30px;
+	padding: 70px 30px;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	-ms-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
+	box-shadow: 10px 12px 57px 0px rgba(0, 0, 0, 0.05) ;
+	-moz-box-shadow: 10px 12px 57px 0px rgba(0, 0, 0, 0.05) ;
+	-webkit-box-shadow: 10px 12px 57px 0px rgba(0, 0, 0, 0.05) ;
+	-o-box-shadow: 10px 12px 57px 0px rgba(0, 0, 0, 0.05) ;
+}
+.feature-item i {
+	font-size: 80px;
+	display: block;
+	margin-bottom: 40px;
+	
+}
+
+.feature-item {
+}
+
+
+.btn-video .btn {
+  min-width: 0;
+  width: 115px;
+}
+/**
+ * ====================================
+ * Features Style 3
+ * ====================================
+ */
+
+.footer{
+    padding: 70px 0;
+	background:#FAFAFA;
+}
+.footer .social {
+}
+.footer .social ul {
+
+}
+.footer .social li {
+	list-style: none;
+	display:inline-block;
+}
+.footer .social li iframe {
+	border:none;
+}
+
+.footer .copyright p {
+  color: #aeaeae;
+  font-size: 15px;
+  font-weight: 400;
+	margin-bottom:20px;
+}
