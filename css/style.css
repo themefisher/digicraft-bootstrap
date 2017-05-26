@@ -287,13 +287,10 @@ media (max-width: 767px) {
  * ===============================
 */
 .header {
-	background-image: linear-gradient(270deg,#8F559F 0%,#AE68A0 50%,#C27692 100%);
-	background-image: -moz-linear-gradient(270deg,#8F559F 0%,#AE68A0 50%,#C27692 100%);
-	background-image: -o-linear-gradient(270deg,#8F559F 0%,#AE68A0 50%,#C27692 100%);
-	background-image: -webkit-linear-gradient(270deg,#8F559F 0%,#AE68A0 50%,#C27692 100%);
+	background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
 	box-shadow: inset 0px -3px 20px rgba(0,0,0,0.04);
 	color:#fff;
-	padding:50px 0 0;
+	padding:150px 0 0;
 }
 .header .fork-icon {
 	color: #fff;
@@ -308,8 +305,8 @@ media (max-width: 767px) {
 }
 
 .header .logo img {
-  max-width: 100px;
-  margin-bottom: 20px;
+    max-width: 100px;
+    margin-bottom: 20px;
 	margin-bottom:45px;
 }
 .header h1 {
@@ -319,10 +316,13 @@ media (max-width: 767px) {
 	
 	line-height:55px;
 }
+.header .btn-main {
+	background:transparent;
+}
 .header p {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 18px;
-  line-height: 30px;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 18px;
+	line-height: 30px;
 	margin-top:30px;
 }
 .header .btn-form {
@@ -330,10 +330,14 @@ media (max-width: 767px) {
 }
 .header .showcase {
 	margin-top:40px;
+	margin-bottom:-70px;
 	width:700px;
 }
 
 /*Feature*/
+.features {
+	padding-top:170px;
+}
 
 .feature-item {
 	text-align: center;
@@ -349,10 +353,13 @@ media (max-width: 767px) {
 	-webkit-box-shadow: 10px 12px 57px 0px rgba(0, 0, 0, 0.05) ;
 	-o-box-shadow: 10px 12px 57px 0px rgba(0, 0, 0, 0.05) ;
 }
+.feature-item:hover i {
+	color:#23A5BD;
+}
 .feature-item i {
 	font-size: 80px;
 	display: block;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	
 }
 
