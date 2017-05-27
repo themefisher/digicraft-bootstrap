@@ -317,7 +317,12 @@ media (max-width: 767px) {
 	line-height:55px;
 }
 .header .btn-main {
-	background:transparent;
+  background:transparent;
+}
+.header .btn-demo{
+  background:#47B545;
+  text-shadow: none;
+  margin-left:15px;
 }
 .header p {
 	color: rgba(255, 255, 255, 0.7);
