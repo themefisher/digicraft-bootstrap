@@ -118,7 +118,7 @@ h6 {
  */
 
 .section-title h2{
-  color: rgba(88, 88, 88, 0.95);
+  color: #333;
   display: inline-block;
   padding-bottom: 23px;
   margin: 0;
@@ -394,6 +394,29 @@ media (max-width: 767px) {
 }
 
 
+
+
+
+
+/*Featured On*/
+.featured-on {
+  padding-top:120px;
+  text-align:center;
+}
+.featured-on img {
+  width: 800px;
+  height:auto;
+}
+.featured-on p {
+  text-transform: uppercase;
+  font-weight:bold;
+  letter-spacing: 6px;
+  color:#000;
+  font-size:12px;
+  border-bottom:2px solid #dedede;
+  display: inline-block;
+  margin-right:25px;
+}
 
 
 
